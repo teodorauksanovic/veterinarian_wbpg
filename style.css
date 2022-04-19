@@ -93,7 +93,7 @@ header{
 
 h1{
     grid-area: h1;
-    font-size: 4rem;
+    font-size: 4rem;/*velika slova*/
     color:white;
 
 }
@@ -149,6 +149,9 @@ h1{
 }
 
 
+
+
+/*novi dio*/
 .boxes{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -176,7 +179,7 @@ video{
     width:253px;
     height:206px;
     z-indeks:1;
-    padding-top:0px; 
+    padding-top:0px; /*ove paddinge prekontrolisati* odalji samo video*/
     padding-bottom:33px;
     padding-left:39px;
 }
@@ -193,10 +196,12 @@ video{
 }
 #textalign{
     text-align: right;
-    column-gap: 9.6rem;
+    column-gap: 9.6rem;/*pomjerice ga ovo okolo yuto*/
 }
 
 
+
+/*treci dio*/
 .sve{
     background-color: #DAAC00;
     padding: 2.5rem 8.75rem 6.31rem 8.75rem;
@@ -241,7 +246,7 @@ video{
     font-size: medium;
     }
 
-
+/*za team*/
 .team{
     padding: 2.5rem 8.75rem 6.31rem 8.75rem;
     text-align:center;
@@ -283,9 +288,9 @@ video{
 }
 
 .informations{
-    background-color: #DAAC00;
+    background-color: #DAAC00;/*pricao je o dvije pozadine*/
     background-image: url(./image/Place\ Your\ Imag\ \(13\).png);
-    background-size:cover;
+    background-size:cover;/*neki djelovi slike mogu biti otkinuti*/
     height: 575px;
     color:white;
     text-align: center;
