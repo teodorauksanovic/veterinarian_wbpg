@@ -396,7 +396,14 @@ video{
 }
 .social a{
     color: white;
+    argin: 0 10px;
 }
+
+.social a:hover{
+    color:#DAAC00;
+}
+
+
 .box1 a{
     color: #DAAC00;
 }
