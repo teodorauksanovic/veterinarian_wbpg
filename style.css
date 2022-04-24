@@ -100,9 +100,8 @@ h1{
 
 .item1{
     grid-area:item1 ;
-    font-size:1,3rem;
+    font-size:1.3rem;
     color:white;
-
 }
 
 .dog{
@@ -157,6 +156,9 @@ h1{
     padding:9.75rem 8.75rem;
     text-align:left ;
     color:#313243;
+    @media screen and (max-width:768px){
+        
+    }
 }
 
 .text h4{
